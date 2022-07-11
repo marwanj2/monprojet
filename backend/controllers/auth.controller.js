@@ -45,7 +45,7 @@ exports.signup = (req, res) => {
         }
       );
     } else {
-      Role.findOne({ name: "citoyen" }, (err, role) => {
+      Role.findOne({ name: "user" }, (err, role) => {
         if (err) {
           res.status(500).send({ message: err });
           return;

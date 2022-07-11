@@ -5,11 +5,11 @@ const Navbar = () => {
     <>
       <div className="topnav" id="myTopnav">
         <div className='logo'>
-          <a href="#home" >كولكتي</a>
+          <a href="/" >كولكتي</a>
         </div>
         <div className='items'>
-          <a href="#news">خدمات</a>
-          <a href="#contact">إتصال</a>
+          <a href="/news">خدمات</a>
+          <a href="/contact">إتصال</a>
           <a href='/signup' className='active'>تسجيل حساب</a>
         </div>
       </div>
